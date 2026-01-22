@@ -1,5 +1,6 @@
 package methods;
 import java.util.Scanner;
+// Program to check whether a number is prime using a method
 public class PrimeNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
