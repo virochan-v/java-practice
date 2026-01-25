@@ -1,22 +1,31 @@
 # Java Practice
 
-This repository contains my Java fundamentals practice while learning core Java concepts using IntelliJ IDEA.
+This repository contains my Core Java fundamentals practice as part of my learning journey using IntelliJ IDEA.
 
-## What this repository is for
-- Practicing Java basics step by step
-- Building strong fundamentals before moving to advanced topics
-- Maintaining consistency with daily coding practice
+## Purpose of this Repository
+- Practice Java concepts step by step in a structured manner
+- Build strong fundamentals before moving to OOP and advanced topics
+- Maintain consistency through small, meaningful programs
+- Track my genuine learning progress over time
 
-## Topics Covered
-- Java syntax and structure
-- Loops and control flow
-- Console input/output
-- Debugging using IntelliJ IDEA
+## Topics Covered So Far
+- Java program structure and syntax
+- Variables, data types, and operators
+- Conditional statements (`if`, `else`, `switch`)
+- Loops (`for`, `while`, `do-while`)
+- Methods (user-defined methods, parameter passing, return values)
+- Console input/output using `Scanner`
+
+## Repository Structure
+- Programs are organized by concept for clarity
+- Each commit represents a learning milestone or concept practice
+- Focus is on correctness, readability, and understanding
 
 ## Tools Used
 - Java (JDK)
 - IntelliJ IDEA
 - Git & GitHub
 
-## Status
-This repository is actively updated as I progress in my Java learning journey.
+## Current Status
+This repository is actively maintained as I continue learning Core Java fundamentals.  
+Upcoming topics include Object-Oriented Programming concepts.
