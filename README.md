@@ -15,6 +15,7 @@ This repository contains my Core Java fundamentals practice as part of my learni
 - Loops (`for`, `while`, `do-while`)
 - Methods (user-defined methods, parameter passing, return values)
 - One-dimensional arrays (basic operations such as traversal and manipulation)
+- Two-dimensional arrays (matrix input, traversal, and basic operations)
 - Console input/output using `Scanner`
 
 ## Repository Structure
