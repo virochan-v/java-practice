@@ -10,7 +10,7 @@ public class RowColumnSum {
         int[][] arr = new int[row][col];
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < col; j++) {
-                arr[i][j]  = sc.nextInt();
+                arr[i][j] = sc.nextInt();
             }
         }
         for (int i = 0; i < row; i++) {
@@ -18,25 +18,15 @@ public class RowColumnSum {
             for (int j = 0; j < col; j++) {
                 rowSum += arr[i][j];
             }
-            System.out.println("Sum of " + i + " row : " + rowSum);
-
-        }
-        for (int i = 0; i < row; i++) {
-            int rowSum = 0;
-            for (int j = 0; j < col; j++) {
-                rowSum += arr[i][j];
-            }
-            System.out.println("Sum of " + i + " row : " + rowSum);
-
+            System.out.println("Sum of row " + i + " : " + rowSum);
         }
         for (int j = 0; j < col; j++) {
             int colSum = 0;
             for (int i = 0; i < row; i++) {
                 colSum += arr[i][j];
             }
-            System.out.println("Sum of " + j + " column : " + colSum);
-
+            System.out.println("Sum of column " + j + " : " + colSum);
         }
-
+        sc.close();
     }
 }
