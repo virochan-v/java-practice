@@ -16,12 +16,15 @@ This repository contains my Core Java fundamentals practice as part of my learni
 - Methods (user-defined methods, parameter passing, return values)
 - One-dimensional arrays (traversal and basic operations)
 - Two-dimensional arrays (matrix input, traversal, and basic operations)
-- Linear Search (searching for elements in arrays using iterative approach)
+- Linear Search (iterative search in unsorted arrays)
+- Binary Search (searching in sorted arrays using divide-and-conquer approach)
+- Order Agnostic Binary Search (handling both ascending and descending sorted arrays)
 - Console input/output using `Scanner`
 
 ## Repository Structure
 - Programs are organized by concept for clarity and readability
 - Each folder represents a specific Java concept or problem type
+- Searching algorithms are grouped logically under array-based problems
 - Commits reflect individual learning milestones or concept practice
 - Emphasis is placed on correctness, clean logic, and readability
 
