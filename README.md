@@ -1,109 +1,62 @@
-# Java Practice
+# Java DSA Practice
 
-This repository contains my structured practice of **Core Java and Data Structures & Algorithms (DSA)** using Java.
-
-The focus is on building strong fundamentals, improving problem-solving skills, and maintaining consistent, trackable progress.
-
----
-
-## 🎯 Purpose of this Repository
-
-- Build a strong foundation in Core Java
-- Develop problem-solving skills using DSA
-- Practice concepts in a structured and disciplined manner
-- Maintain a clean record of learning progress
-- Prepare for technical interviews and coding assessments
+Structured practice of Core Java and Data Structures & Algorithms.  
+Each topic is studied with an emphasis on pattern recognition and understanding edge cases — not just passing problems.
 
 ---
 
-## 🚀 Topics Covered
+## Topics Covered
 
-### 🟢 Core Java Fundamentals
-- Java program structure and syntax
-- Variables, data types, and operators
-- Conditional statements (`if`, `else`, `switch`)
-- Loops (`for`, `while`, `do-while`)
-- Methods (functions, parameters, return values)
-- Arrays (1D & 2D)
-- Input/Output using `Scanner`
+### Core Java
+Variables, data types, control flow, methods, arrays (1D & 2D), and I/O via `Scanner`.
 
 ---
 
-### 🔵 Searching Algorithms
-
-#### Linear Search
-- Basic search in unsorted arrays
-
-#### Binary Search (In-depth)
-
-Implemented and practiced multiple variations of Binary Search:
-
-- Basic Binary Search
-- Order Agnostic Binary Search
-- Search Insert Position
-- Ceiling and Floor in sorted array
-- Smallest element greater than target (wrap-around case)
-- Binary Search in infinite sorted array (range expansion technique)
-- Peak index in mountain array
-- Find element in mountain array
-- First and Last Position of an element in sorted array
-- Search in rotated sorted array (with and without duplicates)
-- Find minimum in rotated sorted array
-- Rotation count in rotated sorted array
-- Split Array Largest Sum (Binary Search on Answer)
-- Binary Search in row-wise and column-wise sorted matrix
-- Binary Search in strictly sorted 2D matrix
+### Strings
+Fundamentals of Java's `String` class — declaration, indexing, traversal, and commonly used built-in methods. Foundation for string-based problem solving.
 
 ---
 
-## 🧠 Key Learning Outcomes
+### Searching
 
-- Strong understanding of **Binary Search patterns**
-- Ability to identify **search space and apply optimization**
-- Experience with **edge cases and variations**
-- Improved **problem-solving and logical thinking**
-- Understanding of **time complexity optimization (O(log n))**
+**Linear Search** — baseline search on unsorted data.
+
+**Binary Search** — studied in depth across a range of problem patterns: standard and order-agnostic variants, search-space problems (insert position, ceiling/floor, peak finding), rotated arrays, infinite arrays, 2D matrices, and binary search on answer. The focus was on identifying reducible search spaces and handling boundary conditions correctly.
 
 ---
 
-## 📁 Repository Structure
+### Sorting
 
-- Code is organized by topic and problem type
-- Each package/folder represents a specific concept
-- Binary Search problems are grouped logically under arrays
-- Clean and readable implementations are prioritized
-- Commit history reflects consistent learning progress
+**Bubble Sort** — adjacent comparisons with early termination optimization.
+
+**Selection Sort** — minimum selection per pass; foundation for understanding in-place swapping.
+
+**Insertion Sort** — sorted-prefix growth; efficient on nearly-sorted inputs.
+
+**Cycle Sort** — places each element directly at its correct index, minimizing total writes. Practiced on problems involving missing and duplicate numbers in a bounded range — problems where write-count matters as much as comparisons.
 
 ---
 
-## 🛠️ Tools & Technologies
+## Progress
 
-- Java (JDK)
+| Topic | Status |
+|---|---|
+| Core Java Fundamentals | ✅ Complete |
+| Strings (Basics) | ✅ Complete |
+| Linear Search | ✅ Complete |
+| Binary Search | ✅ Complete |
+| Bubble Sort | ✅ Complete |
+| Selection Sort | ✅ Complete |
+| Insertion Sort | ✅ Complete |
+| Cycle Sort | ✅ Complete (with problem practice) |
+| Recursion | 🔲 Up next |
+| Advanced Sorting | 🔲 Planned |
+| Data Structures | 🔲 Planned |
+
+---
+
+## Tools
+
+- Java (JDK 17+)
 - IntelliJ IDEA
 - Git & GitHub
-
----
-
-## 📈 Current Progress
-
-- Completed Core Java fundamentals
-- Completed Linear Search
-- Completed extensive Binary Search patterns
-
-➡️ Currently moving towards:
-- Sorting Algorithms
-- Recursion
-- Advanced Data Structures
-
----
-
-## 📌 Note
-
-This repository reflects my **genuine learning journey**.  
-The focus is on clarity, consistency, and depth of understanding rather than just solving problems.
-
----
-
-## 🔄 Status
-
-Actively maintained and continuously updated as I progress in Java and DSA.
