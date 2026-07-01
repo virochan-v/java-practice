@@ -1,6 +1,6 @@
-package arrays;
+package mathematics;
 
-public class SquareRoot {
+public class SquareRootWithPrecision {
     public static void main(String[] args) {
         int n = 40;
         int p = 3;
