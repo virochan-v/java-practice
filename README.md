@@ -12,6 +12,11 @@ Variables, data types, control flow, methods, arrays (1D & 2D), and I/O via `Sca
 
 ---
 
+### Patterns
+Practiced a range of loop-based output patterns — right triangles, diamonds, palindromic pyramids, concentric number squares, and inverted variants. The focus was on translating visual structure into nested loop logic, including non-trivial symmetric patterns.
+
+---
+
 ### Strings
 Fundamentals of Java's `String` class — declaration, indexing, traversal, and commonly used built-in methods. Foundation for string-based problem solving.
 
@@ -37,11 +42,22 @@ Fundamentals of Java's `String` class — declaration, indexing, traversal, and 
 
 ---
 
+### Recursion
+Covered the core mechanics of recursion — base cases, call stack behavior, and recursive decomposition. Problems include digit sum, zero count, number reversal, step reduction, Fibonacci, and applying recursion to binary search. The emphasis was on building intuition for when and how to break a problem into a smaller version of itself.
+
+---
+
+### Bit Manipulation
+Studied bitwise operations (AND, OR, XOR, left/right shift) and their practical applications. Problems cover checking and toggling individual bits (find, set, reset ith bit), identifying odd/even without division, fast exponentiation, power-of-two checks, rightmost set bit, and XOR-based problems — including finding unique elements in arrays where every other element appears twice or three times, and XOR across ranges. Practiced on both custom implementations and coding platform problems.
+
+---
+
 ## Progress
 
 | Topic | Status |
 |---|---|
 | Core Java Fundamentals | ✅ Complete |
+| Patterns | ✅ Complete |
 | Strings (Basics) | ✅ Complete |
 | Linear Search | ✅ Complete |
 | Binary Search | ✅ Complete |
@@ -49,7 +65,8 @@ Fundamentals of Java's `String` class — declaration, indexing, traversal, and 
 | Selection Sort | ✅ Complete |
 | Insertion Sort | ✅ Complete |
 | Cycle Sort | ✅ Complete (with problem practice) |
-| Recursion | 🔲 Up next |
+| Recursion (Basics) | ✅ Complete |
+| Bit Manipulation | ✅ Complete (with problem practice) |
 | Advanced Sorting | 🔲 Planned |
 | Data Structures | 🔲 Planned |
 
