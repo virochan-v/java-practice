@@ -1,6 +1,6 @@
 package arrays;
 
-class MaximumSubarray {
+class MaximumSubArray {
 
     public static int maxSubArray(int[] nums) {
         int currentSum = nums[0];
