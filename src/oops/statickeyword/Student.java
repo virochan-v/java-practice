@@ -40,8 +40,22 @@ public class Student {
         student.displayStudent();
     }
     void check() {
-        // We can static-methods inside a non-static method as non-static methods do not restrict
+        // We can call static-methods inside a non-static method as non-static methods do not restrict
         displayCollege();
+    }
+
+    static class College {
+        String principal;
+        College (String principal) {
+            this.principal = principal;
+        }
+        void displayPrincipal() {
+            System.out.println(principal);
+            // System.out.println(name); // Error: cannot access instance variable directly
+            System.out.println(collegeName);
+            System.out.println(placementPercentage);
+        }
+
     }
 
 }
