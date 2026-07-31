@@ -6,9 +6,9 @@ public class Person {
     String gender;
 
    public Person () {
-        name = "";
+        name = "Person";
         age = 0;
-        gender = "";
+        gender = "N/A";
     }
 
     public Person(String name, int age, String gender) {
@@ -18,6 +18,9 @@ public class Person {
     }
     public void displayDetails() {
         System.out.println(name + " " + age + " " + gender);
+    }
+    public void walk() {
+        System.out.println(name + " is walking");
     }
 
 }
